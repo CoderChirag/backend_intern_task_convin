@@ -4,3 +4,4 @@
 *.pyc
 __pycache__
 venv/
+client_secrets.json

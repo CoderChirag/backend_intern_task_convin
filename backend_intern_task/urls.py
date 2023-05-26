@@ -4,5 +4,5 @@ from . import views
 
 app_name = "backend_intern_task"
 urlpatterns = [
-    path("", views.index, name="index"),
+  path("init", views.GoogleCalendarInitView.as_view(), name="google-calendar-init"),
 ]
